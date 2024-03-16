@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    margin:0;
+    font-size:12px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#logo{
+    position:relative;
+    background:#005eb8;
+    height:70vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
+#logo img{
+    margin-top:20px;
+    width:150px;
+    height:40px;
+}
+#form-box{
+    background:#fff;
+    padding:10px;
+    position:absolute;
+    bottom:-30px;
+    border:0.5px solid rgba(0,0,0,0.5);
+    border-radius:5px;
+    width:340px;
+}
+#form-box input#username, #form-box input#password{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    border:none;
+    outline:0;
+}
+#line{
+    width:100%;
+    border-bottom:1px solid rgba(0,0,0,0.5);
+    margin:10px 0;
+}
+#check-box{
+    display:flex;
+}
+#box{
+    cursor:pointer;
+    flex:1;
+    display:flex;
+}
+p{
+    cursor:pointer;
+}
+#box p{
+    margin-left:10px;
+}
+button{
+    width:100%;
+    outline:0;
+    padding:10px;
+    border-radius:5px;
+    outline:0;
+    color:#fff;
+    background:#005eb8;
+    cursor:pointer;
+}
+#form-box h4{
+    cursor:pointer;
+    font-weight:700;
+    color:#005eb8;
+    text-align: center;
+}
+#footer #grid-box{
+    color:#005eb8;
+    display:flex;
+    width:80%;
+    margin:35px auto 50px;
+    justify-content:space-between;
+}
+hr{
+    opacity:0.5;
+}
+#foot h6{
+    cursor:pointer;
+    font-weight:400;
+    text-align:center;
+    line-height:0.5px;
+}
+#form-box.close{
+    width:0;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    opacity:0;
+}
+h3.end{
+    margin: 10px;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    transform: translateY(250px);
+    opacity:0;
+    transition:0.8s ease-in-out;
+}
+#logo.close{
+    flex-direction:column;
+    justify-content:flex-start;
+}
+#logo.close img{
+    align-self:center;
+}
