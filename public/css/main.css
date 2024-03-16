@@ -78,18 +78,22 @@ button{
 #footer #grid-box{
     color:#005eb8;
     display:flex;
-    width:80%;
-    margin:35px auto 50px;
+    width:100%;
+    margin-top:35px;
+    align-items:center;
     justify-content:space-between;
 }
-hr{
-    opacity:0.5;
+#footer #grid-box p{
+    margin-left:15px;
+}
+#footer #grid-box p:nth-child(even){
+    color:rgba(0,0,0,0.5)
 }
 #foot h6{
     cursor:pointer;
     font-weight:400;
     text-align:center;
-    line-height:0.5px;
+    line-height:0.1px;
 }
 #form-box.close{
     width:0;
